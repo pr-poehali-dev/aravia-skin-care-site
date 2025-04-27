@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, YouTube, MapPin, Phone, Mail } from "lucide-react";
+import { Instagram, Facebook, Video, MapPin, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -19,7 +19,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </Button>
               <Button variant="ghost" size="icon" className="hover:bg-white/20">
-                <YouTube className="h-5 w-5" />
+                <Video className="h-5 w-5" />
               </Button>
             </div>
           </div>
